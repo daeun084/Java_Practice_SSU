@@ -33,40 +33,43 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "project.structure.last.edited": "모듈",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
-  <component name="RunManager" selected="애플리케이션.Q4">
-    <configuration name="Q1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Q1" />
+  <component name="RunManager" selected="애플리케이션.Q12">
+    <configuration name="Q10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q10" />
       <module name="Chapter2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Q2" />
+    <configuration name="Q11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q11" />
       <module name="Chapter2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Q3" />
+    <configuration name="Q12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q12" />
       <module name="Chapter2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Q4" />
+    <configuration name="Q8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q8" />
       <module name="Chapter2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RockScissorPaperGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RockScissorPaperGame" />
+    <configuration name="Q9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q9" />
       <module name="Chapter2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -74,11 +77,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.Q4" />
-        <item itemvalue="애플리케이션.Q3" />
-        <item itemvalue="애플리케이션.Q2" />
-        <item itemvalue="애플리케이션.Q1" />
-        <item itemvalue="애플리케이션.RockScissorPaperGame" />
+        <item itemvalue="애플리케이션.Q12" />
+        <item itemvalue="애플리케이션.Q11" />
+        <item itemvalue="애플리케이션.Q10" />
+        <item itemvalue="애플리케이션.Q9" />
+        <item itemvalue="애플리케이션.Q8" />
       </list>
     </recent_temporary>
   </component>

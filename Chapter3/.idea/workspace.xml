@@ -38,7 +38,7 @@
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
-  <component name="RunManager" selected="애플리케이션.Q10">
+  <component name="RunManager" selected="애플리케이션.Q14">
     <configuration name="Q10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Q10" />
       <module name="Chapter3" />
@@ -46,15 +46,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Q6" />
+    <configuration name="Q13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q13" />
       <module name="Chapter3" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Q7" />
+    <configuration name="Q14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q14" />
       <module name="Chapter3" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -76,11 +76,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Q14" />
+        <item itemvalue="애플리케이션.Q13" />
         <item itemvalue="애플리케이션.Q10" />
         <item itemvalue="애플리케이션.Q9" />
         <item itemvalue="애플리케이션.Q8" />
-        <item itemvalue="애플리케이션.Q7" />
-        <item itemvalue="애플리케이션.Q6" />
       </list>
     </recent_temporary>
   </component>

@@ -1,13 +1,13 @@
-//not finish
-import java.util.Scanner;
 
 public class Q11 {
     public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
+       int sum = 0;
 
-        int n1 = sc.nextInt();
-        int n2 = sc.nextInt();
-        int n3 = sc.nextInt();
+       for(int i=0; i<args.length; i++){
+           sum+=Integer.parseInt(args[i]);
+       }
+       System.out.print((double)sum/args.length);
+
 
 
 

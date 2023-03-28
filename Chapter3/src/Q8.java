@@ -16,7 +16,9 @@ public class Q8 {
             }
         }
 
-        for(int i=0; i<num; i++)
+        for(int i=0; i<num; i++) {
             System.out.printf("%d ", a[i]);
+            if((i+1)%10==0) System.out.print("\n");
+        }
     }
 }

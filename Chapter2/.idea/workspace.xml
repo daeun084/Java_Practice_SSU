@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef80afe6-5621-4d20-93db-309e9bb69790" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/../Chapter3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter3/src/Q15.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter3/src/Q15.java" afterDir="false" />
-    </list>
+    <list default="true" id="ef80afe6-5621-4d20-93db-309e9bb69790" name="변경" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,15 +61,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Q6" />
+    <configuration name="Q2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q2" />
       <module name="Chapter2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Q9" />
+    <configuration name="Q6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q6" />
       <module name="Chapter2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -82,9 +79,9 @@
       <list>
         <item itemvalue="애플리케이션.Q12" />
         <item itemvalue="애플리케이션.Q6" />
+        <item itemvalue="애플리케이션.Q2" />
         <item itemvalue="애플리케이션.Q11" />
         <item itemvalue="애플리케이션.Q10" />
-        <item itemvalue="애플리케이션.Q9" />
       </list>
     </recent_temporary>
   </component>

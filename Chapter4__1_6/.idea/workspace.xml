@@ -35,9 +35,30 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="애플리케이션.Song">
+  <component name="RunManager" selected="애플리케이션.CircleManaager2">
+    <configuration name="CircleManaager2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CircleManaager2" />
+      <module name="Chapter4__1_6" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CircleManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CircleManager" />
+      <module name="Chapter4__1_6" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Grade" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Grade" />
+      <module name="Chapter4__1_6" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Rectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Rectangle" />
       <module name="Chapter4__1_6" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -50,18 +71,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TV" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TV" />
-      <module name="Chapter4__1_6" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.CircleManaager2" />
+        <item itemvalue="애플리케이션.CircleManager" />
+        <item itemvalue="애플리케이션.Rectangle" />
         <item itemvalue="애플리케이션.Song" />
         <item itemvalue="애플리케이션.Grade" />
-        <item itemvalue="애플리케이션.TV" />
       </list>
     </recent_temporary>
   </component>

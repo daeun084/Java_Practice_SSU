@@ -1,5 +1,5 @@
 //Q8
-
+//
 import java.util.Scanner;
 class Phone{
     String name;

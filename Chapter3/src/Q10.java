@@ -5,18 +5,16 @@ public class Q10 {
         Scanner sc = new Scanner(System.in);
         int[][] a= new int[4][4];
 
-        for(int i=0; i<4; i++){
-            for(int j=0; j<4; j++){
-                    a[i][j] = (int) (Math.random() * 10 + 1);
-            }
-        }
-
-        a[0][2]=0;
-        a[1][0]=0;
-        a[2][2]=0;
-        a[3][0]=0;
-        a[3][1]=0;
-        a[3][2]=0;
+        a[0][0] = (int) (Math.random() * 10 + 1);
+        a[0][2] = (int) (Math.random() * 10 + 1);
+        a[0][3] =(int) (Math.random() * 10 + 1);
+        a[1][1] =(int) (Math.random() * 10 + 1);
+        a[1][2] = (int) (Math.random() * 10 + 1);
+        a[1][3] = (int) (Math.random() * 10 + 1);
+        a[2][0] = (int) (Math.random() * 10 + 1);
+        a[2][1] = (int) (Math.random() * 10 + 1);
+        a[2][3] = (int) (Math.random() * 10 + 1);
+        a[3][3] = (int) (Math.random() * 10 + 1);
 
         for(int i=0; i<4; i++) {
             for (int j = 0; j < 4; j++) {

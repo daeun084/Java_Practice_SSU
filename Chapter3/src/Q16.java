@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Q16 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -8,7 +7,7 @@ public class Q16 {
         String str[] = {"가위", "바위", "보"};
 
         while(true){
-            System.out.print("가위 바위 보! >>");
+            System.out.print("가위 바위 보!>>");
             String input = sc.next();
 
             //컴퓨터가 내는 방식 랜덤으로
@@ -33,7 +32,6 @@ public class Q16 {
                 if(input.equals("가위")) System.out.println(", 사용자가 이겼습니다");
                 else if(input.equals("바위")) System.out.println(", 컴퓨터가 이겼습니다");
             }
-
 
         }
         System.out.print("게임을 종료합니다 ...");

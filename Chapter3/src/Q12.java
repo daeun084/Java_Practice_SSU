@@ -5,8 +5,11 @@ public class Q12 {
     int sum=0;
 
     for(int i=0; i<args.length; i++){
-        if(args[i].getClass().getName().equals("Int")){  //변수의 자료형 확인 -> .getClass().getName()
-            sum+=Integer.parseInt(args[i]);
+        try{
+            int input = Integer.parseInt(args[i]);
+            sum += input;
+        }
+        catch (NumberFormatException n){
         }
     }
     System.out.print(sum);

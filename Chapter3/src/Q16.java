@@ -10,13 +10,13 @@ public class Q16 {
             System.out.print("가위 바위 보!>>");
             String input = sc.next();
 
-            //컴퓨터가 내는 방식 랜덤으로
+            //컴퓨터가 내는 방식 랜덤으로 -> 수를 랜덤으로 뽑아 str에 랜덤한 수 전달
             int n = (int)(Math.random()*3);
             String comp = str[n];
 
             if(input.equals("그만")) break;
 
-            System.out.print("사용자 ="+input+", 컴퓨터 = "+comp);
+            System.out.print("사용자 = "+input+", 컴퓨터 = "+comp);
 
             if(comp.equals(input))
                 System.out.println(", 비겼습니다");

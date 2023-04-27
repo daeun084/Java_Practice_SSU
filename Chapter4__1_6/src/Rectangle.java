@@ -40,5 +40,7 @@ public class Rectangle {
         if(t.contains(r)) System.out.println("t는 r을 포합합니다.");
         if(t.contains(s)) System.out.println("t는 s을 포합합니다.");
 
+
+
     }
 }

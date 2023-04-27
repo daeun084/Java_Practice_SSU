@@ -6,10 +6,10 @@ class Dictionary{
     public static String kor2Eng(String word){
         for(int i=0; i<5; i++){
             if(kor[i].equals(word)) {
-                return eng[i];
+                return "은 "+eng[i];
             }
         }
-        return "저의 사전에 없습니다.";
+        return "는 저의 사전에 없습니다.";
     }
 }
 public class DicApp {
@@ -24,7 +24,7 @@ public class DicApp {
 
             if(input.equals("그만")) break;
 
-            System.out.print(input+"는 "+dic.kor2Eng(input)+"\n");
+            System.out.print(input+ +dic.kor2Eng(input)+"\n");
         }
     }
 }

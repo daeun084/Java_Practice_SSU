@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a65ba27-2244-4512-a93a-4d325faa4462" name="변경" comment="" />
+    <list default="true" id="3a65ba27-2244-4512-a93a-4d325faa4462" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/../Chapter3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter3/src/Q16.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter3/src/Q16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter4__1_6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter4__1_6/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter4__1_6/src/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter4__1_6/src/Rectangle.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,13 +37,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/daeun/Java_Exercise_SSU/Chapter4__7_12",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="애플리케이션.Calculator">
     <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Calculator" />

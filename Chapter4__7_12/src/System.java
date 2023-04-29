@@ -1,6 +1,12 @@
 //Q12
+import java.io.PrintStream;
 import java.util.Scanner;
 public class System {
+    static Scanner sc = new Scanner(System.in);
+    static PrintStream out; //symbol error때문에 추가
+    static String in; //symbol error때문에 추가
+
+
     static class func{
         public static void show(String[] arr){
             for(int i=0; i<10; i++){
@@ -33,10 +39,22 @@ public class System {
         static String[] arr = {"---", "---", "---", "---", "---",
                 "---", "---", "---", "---", "---"};
     }
+
+    static String nameinput(){
+        System.out.print("이름>>");
+        String name = sc.next();
+        return name;
+    }
+
+    static int whereinput(){
+        System.out.print("번호>>");
+        int where = sc.nextInt();
+        return  where;
+    }
+
     public static void reserv(){ //예약시스템
-        Scanner scan = new Scanner(System.in);
         System.out.print("좌석구분 S(1), A(2), B(3)>>");
-        int num = scan.nextInt();
+        int num = sc.nextInt();
 
 
         switch (num) {
@@ -44,34 +62,19 @@ public class System {
                 System.out.print("S>> ");
                 S.show(S.arr);
 
-                System.out.print("이름>>");
-                String name = scan.next();
-                System.out.print("번호>>");
-                int where = scan.nextInt();
-
-                S.input(name,where, S.arr);
+                S.input(nameinput(),whereinput(), S.arr);
                 break;
             case 2:
                 System.out.print("A>> ");
                 A.show(A.arr);
 
-                System.out.print("이름>>");
-                name = scan.next();
-                System.out.print("번호>>");
-                where = scan.nextInt();
-
-                A.input(name,where, A.arr);
+                A.input(nameinput(),whereinput(), A.arr);
                 break;
             case 3:
                 System.out.print("B>> ");
                 B.show(B.arr);
 
-                System.out.print("이름>>");
-                name = scan.next();
-                System.out.print("번호>>");
-                where = scan.nextInt();
-
-                B.input(name,where, B.arr);
+                B.input(nameinput(),whereinput(), B.arr);
         }
 
     }
@@ -82,39 +85,29 @@ public class System {
         System.out.println("<<<조회를 완료하였습니다>>>");
 
     }
+
     public static void cancel(){
-        Scanner scc = new Scanner(System.in);
-
         System.out.print("좌석 S:1, A:2, B:3>>");
-        int num = scc.nextInt();
-
+        int num = sc.nextInt();
 
         switch (num) {
             case 1:
                 S.show(S.arr);
-                System.out.print("이름>>");
-                String name = scc.next();
-                S.cancel(name, S.arr);
+                S.cancel(nameinput(), S.arr);
                 break;
             case 2:
                 A.show(A.arr);
-                System.out.print("이름>>");
-                name = scc.next();
-                A.cancel(name, A.arr);
+                A.cancel(nameinput(), A.arr);
             case 3:
                 B.show(B.arr);
-                System.out.print("이름>>");
-                name = scc.next();
-                B.cancel(name, B.arr);
+                B.cancel(nameinput(), B.arr);
         }
-
 
     }
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        S s = new S();
-        A a = new A();
-        B b = new B();
+        //S s = new S();
+        //A a = new A();
+        //B b = new B();
 
         System.out.println("명품콘서트홀 예약시스템입니다");
         while(true) {

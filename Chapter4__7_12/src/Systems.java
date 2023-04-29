@@ -76,8 +76,11 @@ public class Systems {
 
     }
     public static void see(){ //조회 시스템
+        System.out.print("S>> ");
         S.show(S.arr);
+        System.out.print("A>> ");
         A.show(A.arr);
+        System.out.print("B>> ");
         B.show(B.arr);
         System.out.println("<<<조회를 완료하였습니다>>>");
 
@@ -95,6 +98,7 @@ public class Systems {
             case 2:
                 A.show(A.arr);
                 A.cancel(nameinput(), A.arr);
+                break;
             case 3:
                 B.show(B.arr);
                 B.cancel(nameinput(), B.arr);
@@ -102,9 +106,9 @@ public class Systems {
 
     }
     public static void main(String[] args) {
-        //S s = new S();
-        //A a = new A();
-        //B b = new B();
+        S s = new S();
+        A a = new A();
+        B b = new B();
 
         System.out.println("명품콘서트홀 예약시스템입니다");
         while(true) {

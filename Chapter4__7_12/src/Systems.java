@@ -1,11 +1,8 @@
 //Q12
-import java.io.PrintStream;
-import java.util.Scanner;
-public class System {
-    static Scanner sc = new Scanner(System.in);
-    static PrintStream out; //symbol error때문에 추가
-    static String in; //symbol error때문에 추가
 
+import java.util.Scanner;
+public class Systems {
+    static Scanner sc = new Scanner(System.in);
 
     static class func{
         public static void show(String[] arr){

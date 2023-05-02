@@ -13,7 +13,7 @@ public abstract class GameObject {
         if(this.x==p.getX() && this.y==p.getY()) return true;
         else return false;
     }
-    protected abstract void move();
+    protected abstract void move(String input);
     protected abstract char getShape();
 
 }

@@ -14,10 +14,10 @@ class Bear extends GameObject{
                 this.x -= distance;
                 break;
             case "s":
-                this.y -= distance;
+                this.y += distance;
                 break;
             case "d":
-                this.y += distance;
+                this.y -= distance;
                 break;
             case "f":
                 this.x+= distance;
@@ -32,23 +32,26 @@ class Bear extends GameObject{
 }
 class Fish extends GameObject{
     String[] where = {"a", "s", "d", "f"};
-    int wherenumber = (int)(Math.random()%4);
-    //0~3까지의 난수 생성
+
 
     public Fish(){
-        super(6, 5, 1);
+        super((int)(Math.random()*20), (int)(Math.random()*10), 1);
+        //처음 시작 위치 랜덤
     }
     @Override
     protected void move(String input) {
+        int wherenumber = (int)(Math.random()*4);
+        //0부터 4까지의 난수 생성
+
         switch (where[wherenumber]){
             case "a":
                 this.x -= distance;
                 break;
             case "s":
-                this.y -= distance;
+                this.y += distance;
                 break;
             case "d":
-                this.y += distance;
+                this.y -= distance;
                 break;
             case "f":
                 this.x+= distance;
@@ -66,8 +69,8 @@ public class Game {
     static void show(GameObject bear, GameObject fish){
         for(int i=0; i<10; i++){
             for(int j = 0; j<20; j++){
-                if(bear.getX() == i && bear.getY() == j) System.out.print(bear.getShape());
-                else if(fish.getX() == i&& fish.getY() == j)
+                if(bear.getX() == j && bear.getY() == i) System.out.print(bear.getShape());
+                else if(fish.getX() == j&& fish.getY() == i)
                     System.out.print(fish.getShape());
                     else System.out.print("-");
             }
@@ -95,7 +98,10 @@ public class Game {
             else if(count >= 4) fish.move(input);
 
 
-            if(bear.collide(fish)) break;
+            if(bear.collide(fish)) {
+                show(bear, fish);
+                break;
+            }
         }
         System.out.println("Bear Wins!!");
     }

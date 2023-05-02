@@ -10,17 +10,17 @@ abstract class Shape{
 }
 class Line extends Shape{
 public void draw(){
-
+    System.out.println("Line");
 }
 }
 class Circle extends Shape{
     public void draw(){
-
+        System.out.println("Circle");
     }
 }
 class Rect extends Shape{
     public void draw(){
-
+        System.out.println("Rect");
     }
 }
 public class  GraphicEditor {
@@ -29,12 +29,24 @@ public class  GraphicEditor {
     public static void add(){ //삽입
         System.out.print("Line(1), Rect(2), Circle(3)>>");
         int num = sc.nextInt();
+        switch (num){
+            case 1:
+
+                break;
+            case 2:
+
+                break;
+            case 3:
+
+                break;
+        }
     }
     public static void delete(){ //삭제
         System.out.print("삭제할 도형의 위치>>");
         int address = sc.nextInt();
     }
     public static void show(){ //모두 보기
+
 
     }
     public static void main(String [] args){

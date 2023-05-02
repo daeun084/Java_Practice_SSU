@@ -26,31 +26,42 @@ class Rect extends Shape{
 public class  GraphicEditor {
     static Scanner sc = new Scanner(System.in);
 
-    public static void add(){ //삽입
+    public static void add(Shape s){ //삽입
         System.out.print("Line(1), Rect(2), Circle(3)>>");
         int num = sc.nextInt();
-        switch (num){
-            case 1:
 
-                break;
-            case 2:
+        Shape cursor = s;
+        for(;cursor.getNext()!=null; cursor = cursor.getNext());
+         //커서를 맨 끝으로 이동
+        if(num==1) cursor.setNext(new Line());
+        if(num==2) cursor.setNext(new Rect());
+        if(num==3) cursor.setNext(new Circle());
 
-                break;
-            case 3:
-
-                break;
-        }
     }
-    public static void delete(){ //삭제
+    public static void delete(Shape s){ //삭제
         System.out.print("삭제할 도형의 위치>>");
         int address = sc.nextInt();
+        Shape cursor = s.getNext();
+        for(int i=1; i<address-1; i++){
+            cursor = cursor.getNext();
+        }
+        if(cursor.getNext()==null){
+            System.out.println("삭제할 수 없습니다.");
+        }
+        else{
+            cursor.setNext(cursor.getNext().getNext());
+        }
     }
-    public static void show(){ //모두 보기
+    public static void show(Shape s){ //모두 보기
+       Shape cursor = s.getNext();
+       for(;cursor!=null; cursor = cursor.getNext()) cursor.draw();
 
 
     }
     public static void main(String [] args){
         int n;
+        Shape s = new Line();
+
         System.out.println("그래픽 에디터 beauty을 실행합니다.");
         while(true){
             System.out.print("삽입(1), 삭제(2), 모두 보기(3), 종료(4)>>");
@@ -58,13 +69,13 @@ public class  GraphicEditor {
 
             switch (n){
                 case 1:
-                    add();
+                    add(s);
                     break;
                 case 2:
-                    delete();
+                    delete(s);
                     break;
                 case 3:
-                    show();
+                    show(s);
                     break;
                 case 4:
                     System.out.println("beauty을 종료합니다.");

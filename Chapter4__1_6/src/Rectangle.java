@@ -1,6 +1,6 @@
 //Q4
 public class Rectangle {
-    int x;
+    private int x;
     int y;
     int width;
     int height;
@@ -39,8 +39,6 @@ public class Rectangle {
         System.out.println("s의 면적은 "+s.square());
         if(t.contains(r)) System.out.println("t는 r을 포합합니다.");
         if(t.contains(s)) System.out.println("t는 s을 포합합니다.");
-
-
 
     }
 }

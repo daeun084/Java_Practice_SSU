@@ -11,6 +11,7 @@ interface Stack{
 }
 
 class StringStack implements Stack{
+    private String[] stack;
     Scanner sc = new Scanner(System.in);
     private int length;
     private int capacity;
@@ -19,7 +20,7 @@ class StringStack implements Stack{
     public int length(){return length;}
     public int capacity(){return capacity;}
     public String pop(){
-        return input;
+        return stack[length-1];
     }
     public boolean push(String val){
         if(length<capacity) return true;
@@ -29,9 +30,9 @@ class StringStack implements Stack{
     public void run(){
         System.out.print("총 스택 저장 공간의 크기 입력 >>");
         capacity = sc.nextInt();
+        stack = new String[capacity];
 
         while(true){
-
 
             System.out.print("문자열 입력 >> ");
             input = sc.next();
@@ -40,6 +41,7 @@ class StringStack implements Stack{
 
 
             if(push(input)){
+                stack[length] = input;
                 length++;
             }
             else{
@@ -50,6 +52,7 @@ class StringStack implements Stack{
         }
 
         System.out.print("스택에 저장된 모든 문자열 팝 : ");
+        for(;length>0; length--) System.out.print(pop()+" ");
 
     }
 }

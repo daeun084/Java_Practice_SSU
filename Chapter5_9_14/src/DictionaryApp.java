@@ -25,7 +25,13 @@ class Dictionary extends PairMap{
     void put(String key, String value){
         for(int i=0; i<length; i++){
             if(KeyArray[i].equals(key)) {
-                ValueArray[i] = value;
+                if(ValueArray[i]==null){
+                    length++;
+                    ValueArray[i] = value;
+                }
+                else{
+                    ValueArray[i] = value;
+                }
                 return;
             }
         }
@@ -40,6 +46,7 @@ class Dictionary extends PairMap{
             if(KeyArray[i].equals(key)) {
                 item = ValueArray[i];
                 ValueArray[i] = null;
+                length--;
                 break;
             }
         }
@@ -58,6 +65,7 @@ public class DictionaryApp {
 
         System.out.println("이재문의 값은 "+dic.get("이재문"));
         System.out.println("황기태의 값은 "+dic.get("황기태"));
+
         dic.delete("황기태");
         System.out.println("황기태의 값은 "+dic.get("황기태"));
     }

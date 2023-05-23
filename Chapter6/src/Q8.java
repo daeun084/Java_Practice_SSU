@@ -6,5 +6,14 @@ public class Q8 {
         Scanner sc = new Scanner(System.in);
 
         String str = sc.nextLine();
+        String subStr1, subStr2;
+
+        
+        for(int i=1; i<=str.length(); i++){
+            subStr1 = str.substring(i, str.length());
+            subStr2 = str.substring(0, i);
+            System.out.println(subStr1+subStr2);
+        }
+
     }
 }

@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="89be37bc-7ac1-4532-a66d-bb546fd9095c" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Q12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q12.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +37,14 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="애플리케이션.Q11">
+  <component name="RunManager" selected="애플리케이션.Q12">
+    <configuration name="Q10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q10" />
+      <module name="Chapter6" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Q11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Q11" />
       <module name="Chapter6" />
@@ -43,8 +52,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Q7" />
+    <configuration name="Q12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q12" />
       <module name="Chapter6" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -52,13 +61,6 @@
     </configuration>
     <configuration name="Q7_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Q7_1" />
-      <module name="Chapter6" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q7_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Q7_2" />
       <module name="Chapter6" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -73,11 +75,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Q12" />
+        <item itemvalue="애플리케이션.Q10" />
         <item itemvalue="애플리케이션.Q11" />
         <item itemvalue="애플리케이션.Q9" />
         <item itemvalue="애플리케이션.Q7_1" />
-        <item itemvalue="애플리케이션.Q7_2" />
-        <item itemvalue="애플리케이션.Q7" />
       </list>
     </recent_temporary>
   </component>

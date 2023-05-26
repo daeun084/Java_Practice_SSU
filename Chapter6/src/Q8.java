@@ -14,6 +14,5 @@ public class Q8 {
             subStr2 = str.substring(0, i);
             System.out.println(subStr1+subStr2);
         }
-
     }
 }

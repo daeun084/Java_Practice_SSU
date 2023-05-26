@@ -39,7 +39,6 @@ public class Q10 {
             if(win==1) return;
           if(index==1) index = -1;
         }
-
     }
 
     static int makerandom(Person p){

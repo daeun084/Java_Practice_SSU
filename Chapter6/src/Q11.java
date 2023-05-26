@@ -44,8 +44,6 @@ public class Q11 {
                 return;
             }
         }
-//모든 문자열을 수정해야 하는가 흠
-        //!뒤에 문자열이 없을 때 오류 발생
 
         System.out.println("찾을 수 없습니다!");
 

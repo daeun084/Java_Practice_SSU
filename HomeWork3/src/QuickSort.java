@@ -77,6 +77,11 @@ public class QuickSort {
                 printState(arr, "Swap State");
 
             }
+            if(pivot == 31) break;
+            //pivot이 31이면 while문 탈출을 못해 무한루프에 걸리기 때문에
+            //while문을 탈출한 후
+            //ar[[first], 31은 항상 arr[toobig]보다 크므로 둘의 위치 교환
+            //-> 31이 arr의 맨 마지막에 위치
 
         }
         //toobig<toosmall이고 엇갈렸다면,

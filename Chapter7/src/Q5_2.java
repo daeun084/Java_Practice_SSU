@@ -1,6 +1,6 @@
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Scanner;
-//hashmap.get 부분 수정 필요
 
 public class Q5_2 {
     public static void main(String[] args) {
@@ -16,22 +16,30 @@ public class Q5_2 {
         }
         System.out.println("--------------------");
 
+
+        Iterator<String> it = hashMap.keySet().iterator();
+
         for (int i = 0; i < 4; i++) {
-            System.out.println(hashMap.get(i).toString());
+            System.out.println(hashMap.get(it.next()));
             System.out.println("--------------------");
         }
 
         String search;
+
         while (true) {
             System.out.print("학생 이름 >> ");
             search = sc.next();
             if (search.equals("그만")) return;
 
+            it = hashMap.keySet().iterator();
+
             for(int i=0; i<4; i++){
-                if(hashMap.get(i).equals(search)){
-                    hashMap.get(i).Print();
+                if(hashMap.get(it.next()).name.equals(search)){
+                    hashMap.get(it.next()).Print();
+                    //Iterator 순환 관련 이슈
                 }
             }
+
         }
     }
 }

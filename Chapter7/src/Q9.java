@@ -19,6 +19,7 @@ class MyStack<T> implements IStack<T>{
         if(count<10){
             System.out.print("push: ");
             arraystack.add((T) sc.next());
+            //형변환 이슈
             count++;
             return true;
         }

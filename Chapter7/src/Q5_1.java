@@ -29,6 +29,7 @@ public class Q5_1 {
         for (int i = 0; i < 4; i++) {
             System.out.print(">> ");
             arrayList.add(new Student(sc.next(), sc.next(), sc.nextInt(), sc.nextDouble()));
+            //, 으로 구분하는 기능 넣어야 함
         }
         System.out.println("--------------------");
 

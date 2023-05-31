@@ -33,11 +33,14 @@ public class Q5_2 {
 
             it = hashMap.keySet().iterator();
 
-            for(int i=0; i<4; i++){
+            while(it.hasNext()){
+
                 if(hashMap.get(it.next()).name.equals(search)){
-                    hashMap.get(it.next()).Print();
-                    //Iterator 순환 관련 이슈
+                    hashMap.get(it).Print();
+                    System.out.println();
+                    //Iterator 이슈
                 }
+
             }
 
         }

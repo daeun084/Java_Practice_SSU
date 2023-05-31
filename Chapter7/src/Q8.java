@@ -17,17 +17,29 @@ public class Q8 {
 
             score = sc.nextInt();
 
-            //name이 이미 있으면 score 수정
-            //없으면 k, v 추가
+                if(hashMap.containsKey(name)){
+                    hashMap.replace(name, hashMap.get(name)+score);
+                    //점수 누적
+                }
+                else{
+                    hashMap.put(name, score);
+                }
+
 
             hashPrint(hashMap);
         }
     }
     static void hashPrint(HashMap<String, Integer> h){
         Iterator<String> it = h.keySet().iterator();
-        while(it.hasNext()){
-            System.out.print("");
-            //모든 쌍 출력
-        }
+
+        String n = null;
+       for(int i=0; i<h.size(); i++) {
+           n = it.next();
+           System.out.print("(" + n + "," + h.get(n) + ")");
+       }
+        System.out.println();
+
     }
+
+
 }

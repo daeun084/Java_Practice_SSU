@@ -21,11 +21,12 @@ public class Q7 {
         System.out.print("장학생 명단 : ");
 
         Iterator<Double> it = hashMap.keySet().iterator();
+        double n = 0;
         while(it.hasNext()){
-            double n = it.next();
+            n = it.next();
             System.out.print(hashMap.get(n)+" ");
             System.out.println();
-            if(n >= 3.2) System.out.print(hashMap.get(n)+" ");
+            if(n >= 3.2) System.out.println("//"+hashMap.get(n)+" //");
         }
         //Iterator 이슈
     }

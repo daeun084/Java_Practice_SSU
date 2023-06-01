@@ -1,6 +1,8 @@
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Scanner;
+import java.util.Set;
+import java.util.*;
 
 public class Q5_2 {
     public static void main(String[] args) {
@@ -16,8 +18,9 @@ public class Q5_2 {
         }
         System.out.println("--------------------");
 
+        Set<String> s = hashMap.keySet();
 
-        Iterator<String> it = hashMap.keySet().iterator();
+        Iterator<String> it = s.iterator();
 
         for (int i = 0; i < 4; i++) {
             System.out.println(hashMap.get(it.next()));
@@ -33,12 +36,12 @@ public class Q5_2 {
 
             it = hashMap.keySet().iterator();
 
-            while(it.hasNext()){
-
-                if(hashMap.get(it.next()).name.equals(search)){
-                    hashMap.get(it).Print();
+            while (it.hasNext()) {
+                String key = it.next();
+                if (search.equals(hashMap.get(key).name)) {
+                    hashMap.get(key).Print();
                     System.out.println();
-                    //Iterator 이슈
+                    //지피티야 고마워 ~~
                 }
 
             }

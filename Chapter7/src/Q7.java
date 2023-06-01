@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Scanner;
-
+import java.util.*;
 public class Q7 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -26,8 +26,8 @@ public class Q7 {
             n = it.next();
             System.out.print(hashMap.get(n)+" ");
             System.out.println();
-            if(n >= 3.2) System.out.println("//"+hashMap.get(n)+" //");
+            if(n >= line) System.out.println("//"+hashMap.get(n)+" //");
         }
-        //Iterator 이슈
+
     }
 }

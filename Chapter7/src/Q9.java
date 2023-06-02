@@ -10,7 +10,6 @@ interface IStack<T> {
 }
 
 class MyStack<T> implements IStack<T> {
-    Object [] obstack = new Object[10];
     int count = 0;
     ArrayList<T> arraylist = new ArrayList<>();
 

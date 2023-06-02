@@ -2,7 +2,6 @@ import java.util.*;
 
 class Nation {
     String country, capital;
-
     public Nation(String country, String capaital) {
         this.country = country;
         this.capital = capaital;

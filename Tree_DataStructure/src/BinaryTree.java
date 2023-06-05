@@ -116,9 +116,5 @@ public class BinaryTree {
         System.out.print("\n'6' is LeafNode? : "+n1.getRight().isleaf());
 
 
-
-
-
-
     }
 }

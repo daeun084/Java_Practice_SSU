@@ -25,7 +25,6 @@ public class Q8 {
                     hashMap.put(name, score);
                 }
 
-
             hashPrint(hashMap);
         }
     }

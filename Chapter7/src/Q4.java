@@ -13,7 +13,6 @@ public class Q4 {
             else {
                 v.add(input);
                 vAvg(v, vPrint(v));
-                //기깔나는 방법이다 아주 똑똑해
             }
         }
     }

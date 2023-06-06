@@ -14,7 +14,7 @@ class Location {
     }
 
     public String toString() {
-        return name + "\t" + a + "\t" + b;
+        return String.format("%-4s %-3d %-3d", name, a, b);
     }
 }
 
@@ -26,14 +26,14 @@ public class Q6 {
         System.out.println("도시, 경도, 위도를 입력하세요.");
         for (int i = 0; i < 4; i++) {
             System.out.print(">> ");
-            String name = sc.next();
-            hashMap.put(name, new Location(name, sc.nextInt(), sc.nextInt()));
+            String[] input = sc.nextLine().split(", ");
+
+            hashMap.put(input[0], new Location(input[0], Integer.parseInt(input[1]), Integer.parseInt(input[2])));
         }
         System.out.println("--------------------");
 
         Iterator<String> it = hashMap.keySet().iterator();
-        for(int i=0; i<4; i++){
-
+        for (int i = 0; i < 4; i++) {
             System.out.println(hashMap.get(it.next()));
         }
 

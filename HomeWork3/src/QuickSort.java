@@ -21,7 +21,6 @@ public class QuickSort {
             System.out.print(arr[i] + " ");
         }
         System.out.println();
-
     }
 
     static void quicksort(int[] arr, int first, int n) {
